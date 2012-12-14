@@ -14,4 +14,7 @@ SENSORS_PRESSURE_BMP180 := false
 
 TARGET_QCOM_HDMI_OUT := false
 
+#Recovery
+TARGET_RECOVERY_INITRC := device/semc/iyokan/recovery/init.rc
+
 TARGET_OTA_ASSERT_DEVICE := MK16i,MK16a,iyokan
